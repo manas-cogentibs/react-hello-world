@@ -10,7 +10,7 @@ const thisProject = {
 
 describe('my beverage', () => {
   test('is delicious', () => {
-    expect(thisProject.hasUnitTests).toBeFalsy();
+    expect(thisProject.hasUnitTests).toBeTruthy();
   });
 
   test('is not sour', () => {
