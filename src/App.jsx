@@ -3,14 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const thisProject = {
-    hasUnitTests: true,
-    hasE2ETests: true,
-    hasIssues: false
-  };
-  var a = 'fasdf';
-  console.log("The result is", a)
-
   return (
     <div className="App">
       <header className="App-header">
